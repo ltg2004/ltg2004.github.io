@@ -4,3 +4,13 @@
 
 layout: home
 ---
+
+```javascript
+const res = () => {
+    reutrn 'hello'
+}
+```
+
+---
+
+{{jekyll.environment}}
