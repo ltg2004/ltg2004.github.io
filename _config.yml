@@ -15,18 +15,18 @@
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
+locale: "ko-KR"
 title: "BBANGYA Developers BLOG"
 title_separator: "-"
-subtitle: "빵야네트웍스 개발팀"
-name: "bbangya"
+subtitle: "version 1.0"
+name: "이태규(LEE TaeGyu)"
 description: "개발에 필요한 오픈소스를 학습한 내용을 공유합니다."
 url: "https://ltg2004.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "ltg2004/ltg2004.github.io.git"
 teaser: #
 logo: "/assets/images/logo.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "그냥 하자."
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
