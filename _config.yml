@@ -27,7 +27,7 @@ repository: "ltg2004/ltg2004.github.io.git"
 teaser: #
 logo: "/assets/images/logo.png"
 masthead_title: "그냥 하자."
-breadcrumbs: true # true, false (default)
+breadcrumbs: false # true, false (default)
 words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
