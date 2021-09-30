@@ -1,7 +1,7 @@
 ---
+permalink: "Posts"
 title: "Jest - expect"
 excerpt: "Testing Framework handbook"
-
 categories:
   - Blog
 tags:
