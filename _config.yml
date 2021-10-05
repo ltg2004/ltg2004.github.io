@@ -22,7 +22,7 @@ subtitle: 'version 1.0'
 name: '이태규(LEE TaeGyu)'
 description: '개발에 필요한 오픈소스를 학습한 내용을 공유합니다.'
 url: 'https://ltg2004.github.io'
-baseurl: "/categories" # the subpath of your site, e.g. "/blog"
+baseurl: # the subpath of your site, e.g. "/blog"
 repository: 'ltg2004/ltg2004.github.io.git'
 teaser: #
 logo: '/assets/images/logo.png'
