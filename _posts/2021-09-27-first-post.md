@@ -1,12 +1,18 @@
 ---
-title: "github.io 블로그 시작하기"
-excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
+layout: single
+
+title: 'github.io 블로그 시작하기'
+excerpt: 'GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.'
+
+author_profile: true
+
+data: 2021-09-30 08:40:00 +0900
+last_modified_at: 2021-09-27 12:22:00 +0900
 
 categories:
-  - Blog
+  - post
 tags:
-  - Blog
-last_modified_at: 2021-09-27T12:35:00
+  - post
 ---
 
 GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
@@ -18,3 +24,4 @@ Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다
 YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
 이 글의 제목은 {{ page.title }}이고
 마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
+{: .notice}

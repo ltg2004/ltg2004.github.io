@@ -1,12 +1,25 @@
 ---
-permalink: "Posts"
-title: "Jest - expect"
-excerpt: "Testing Framework handbook"
+# permalink: "Posts"
+layout: single
+
+title: 'Jest - expect'
+excerpt: 'Testing Framework handbook'
+
+author_profile: false
+
+header:
+  overlay_image: https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+  overlay_filter: 0.5 # 투명도
+
+data: 2021-09-30 08:40:00 +0900
+last_modified_at: 2021-10-06 21:22:00 +0900
+
 categories:
-  - Blog
+  - post
 tags:
-  - Blog
-last_modified_at: 2021-09-30T08:40:00
+  - Jest
+  - Unit
+  - Test
 ---
 
 # JEST 메뉴얼 (v 27.2)

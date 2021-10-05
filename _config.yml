@@ -15,24 +15,25 @@
 minimal_mistakes_skin: # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "ko-KR"
-title: "BBANGYA Developers BLOG"
-title_separator: "-"
-subtitle: "version 1.0"
-name: "이태규(LEE TaeGyu)"
-description: "개발에 필요한 오픈소스를 학습한 내용을 공유합니다."
-url: "https://ltg2004.github.io"
-baseurl: # the subpath of your site, e.g. "/blog"
-repository: "ltg2004/ltg2004.github.io.git"
+locale: 'ko-KR'
+title: 'BBANGYA Developers BLOG'
+title_separator: '-'
+subtitle: 'version 1.0'
+name: '이태규(LEE TaeGyu)'
+description: '개발에 필요한 오픈소스를 학습한 내용을 공유합니다.'
+url: 'https://ltg2004.github.io'
+baseurl: "/categories" # the subpath of your site, e.g. "/blog"
+repository: 'ltg2004/ltg2004.github.io.git'
 teaser: #
-logo: "/assets/images/logo.png"
-masthead_title: "그냥 하자."
+logo: '/assets/images/logo.png'
+masthead_title: '그냥 하자.'
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
+
 comments:
-  provider: "disqus" # false (default) , "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: 'disqus' # false (default) , "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: "ltg2004" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: 'ltg2004' # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -53,9 +54,14 @@ comments:
   staticman:
     branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
+
 reCaptcha:
   siteKey:
   secret:
+
+google_site_verification :
+naver_site_verification  :
+
 atom_feed:
   path: # blank (default) uses feed.xml
   hide: # true, false (default)
@@ -83,7 +89,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: "/assets/images/logo.png"
+og_image: '/assets/images/logo.png'
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -93,58 +99,58 @@ social:
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: 'google-gtag' # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id:
+    tracking_id: 'G-KBFVGPGDBL'
     anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name: "ltg"
-  avatar: "/assets/images/author_ltg.png"
-  bio: "**기록하자!!**<br>잊지않도록!."
-  location: "Seoul"
+  name: 'ltg'
+  avatar: '/assets/images/author_ltg.png'
+  bio: '**기록하자!!**<br>잊지않도록!.'
+  location: 'Seoul'
   email: # 이메일 주소, (links에서 작성하기에 생략!)
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ltg@bbangyanetworks.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://koallazon.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: 'Email'
+      icon: 'fas fa-fw fa-envelope-square'
+      url: 'mailto:ltg@bbangyanetworks.com'
+    - label: 'Website'
+      icon: 'fas fa-fw fa-link'
+      url: 'https://koallazon.github.io'
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    - label: 'Facebook'
+      icon: 'fab fa-fw fa-facebook-square'
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ltg2004"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
+      url: 'https://github.com/ltg2004'
+    - label: 'Instagram'
+      icon: 'fab fa-fw fa-instagram'
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    - label: 'Facebook'
+      icon: 'fab fa-fw fa-facebook-square'
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    - label: 'GitLab'
+      icon: 'fab fa-fw fa-gitlab'
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    - label: 'Bitbucket'
+      icon: 'fab fa-fw fa-bitbucket'
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    - label: 'Instagram'
+      icon: 'fab fa-fw fa-instagram'
       # url:
 
 # Reading Files
@@ -152,8 +158,8 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
+  - '*.sublime-project'
+  - '*.sublime-workspace'
   - vendor
   - .asset-cache
   - .bundle
@@ -181,11 +187,13 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+encoding: 'utf-8'
+markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
 
 # Conversion
 markdown: kramdown
+
+# syntax 하이라이터 설정
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -209,7 +217,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 15 # amount of posts to show
+paginate: 8 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -268,18 +276,18 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
       comments: true
-      share: true
-      related: true
+      share: false
+      related: false
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
